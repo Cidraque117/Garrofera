@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/scss/bootstrap';
+
+* {
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    padding-bottom: 100px;
+
+}
